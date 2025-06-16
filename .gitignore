@@ -1,0 +1,16 @@
+# Ignore the virtual environment folder
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore local data files (good practice)
+data/
+
+# Ignore Streamlit secrets file - CRITICAL
+.streamlit/secrets.toml
+
+# Ignore IDE/OS specific files
+.vscode/
+.DS_Store
